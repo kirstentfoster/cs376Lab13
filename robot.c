@@ -33,9 +33,10 @@ void robotPrintAscii(void)
 {
   int i;
   char* blank = "          ";
-for(i=0; i<3; i++){
-  printf("\n\n"
+ printf("\n\n"
 	 "UWR: Unidentified Wheeled Robot\n");
+
+for(i=0; i<3; i++){
 for(int j=0; j<=i; j++){
   printf("%s",blank);
 }
